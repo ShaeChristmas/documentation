@@ -16,7 +16,8 @@ This Architecture Document provides an architectural overview of Voice Verificat
 
 ## Use-Case View
 ### Architecturally Significant Use Cases
-![Figure 1: Architecturally Significant Use Cases](https://github.com/ShaeChristmas/documentation/blob/main/docs/OnTrack/Voice%20Verification/Images/Use%20Cases.png)//
+![Figure 1: Architecturally Significant Use Cases](https://github.com/ShaeChristmas/documentation/blob/main/docs/OnTrack/Voice%20Verification/Images/Use%20Cases.png)
+
 
 - Enrol the voiceprint: This use case allows a student to register a voiceprint for later verification 
 - Submit a voice file: This use case allows a student to submit an assignment audio to Ontrack System 
@@ -25,12 +26,16 @@ This Architecture Document provides an architectural overview of Voice Verificat
 
 ## Logical View
 ### Architecture Overview
-![Figure 2: High Level Architecture](https://github.com/ShaeChristmas/documentation/blob/main/docs/OnTrack/Voice%20Verification/Images/Architecture%20Diagram.png)//
+![Figure 2: High Level Architecture](https://github.com/ShaeChristmas/documentation/blob/main/docs/OnTrack/Voice%20Verification/Images/Architecture%20Diagram.png)
+
+
 ### Detailed description of the architecture diagram
 The diagram shows the communication types between each of the systems of the project. The User interacts with both the frontend website Ontrack and the voice verification system through a Ruby app.  
 
 ### General Flow diagram
-![Figure 3: General Flow Diagram](https://github.com/ShaeChristmas/documentation/blob/main/docs/OnTrack/Voice%20Verification/Images/Flow%20Diagram.png)//
+![Figure 3: General Flow Diagram](https://github.com/ShaeChristmas/documentation/blob/main/docs/OnTrack/Voice%20Verification/Images/Flow%20Diagram.png)
+
+
 The User has its requests go through the existing OnTrack system, with the OnTrack system sending further requests to the Voice Verification API. The sends the voice files to the docker container. 
 
 ## Size and Performance
